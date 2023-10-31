@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wtmm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0012-tenant/ci1t-43256-0012-app/devfile-sample-wtmm@sha256:34986400b66690a83b60f1fbe1d81cfaa85cedd90b2a93cca9a2f08a8fdb645b
         name: my-nodejs
         ports:
         - containerPort: 3001
